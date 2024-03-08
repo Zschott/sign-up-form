@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.left > .background{
+   width: 100%;
+}
+
+.left{
+    border: solid 1px black;
+    width: 30%;
+}
+
+.right{
+  
+    border: solid 1px red;
+}
+
+.form-row{
+    display: flex;
+}
+
+.input-container{
+    margin: 10px;
+}
+
+#input-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+}
+#input-container > span {
+    margin-left: 5px;
+    font-size: 20px;
+}
